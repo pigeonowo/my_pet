@@ -98,6 +98,7 @@ pub fn main() !void {
         pet.draw();
         // -- pet drawing --
         // -- message drawing --
+        // When uncommenting below line... the texture flipping doesnt work anymore with the pet... need to adjust some stuff in my graphics library and need to learn more about textures in opengl
         // message.draw();
         // -- message drawing --
         // -- drawing --
