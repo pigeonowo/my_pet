@@ -18,7 +18,7 @@ pub fn build(b: *std.Build) void {
             .imports = &.{.{ .name = "my_graphics", .module = my_graphics_dep.module("my_graphics") }},
         }),
     });
-    exe.addLibraryPath(b.path("../../deps/glfw/"));
+    exe.addLibraryPath(b.path("./deps/glfw/"));
     exe.linkSystemLibrary("glfw");
     b.installArtifact(exe);
 
