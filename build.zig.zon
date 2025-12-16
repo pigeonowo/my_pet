@@ -33,7 +33,7 @@
     // internet connectivity.
     .dependencies = .{
         .my_graphics = .{
-            .url = "/home/jonas/graphics_programming/my_graphics/",
+            .url = "git+https://github.com/pigeonowo/my_graphics#dbc7179d3d099fb082841e14722258c842ce0cbd",
             .hash = "my_graphics-0.0.0-1G2kEBhRAACEFGRJ8RqMTfZ8l50mBY-Fa1OVmQut_CCo",
         },
     },
